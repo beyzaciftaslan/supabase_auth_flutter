@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supabase_auth_flutter/auth/auth_gate.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() async {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(),
+      home: AuthGate(),
     );
   }
 }

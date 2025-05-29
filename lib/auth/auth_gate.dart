@@ -8,6 +8,8 @@ auth -> home
 */
 
 import 'package:flutter/material.dart';
+import 'package:supabase_auth_flutter/view/home_page.dart';
+import 'package:supabase_auth_flutter/view/login_page.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class AuthGate extends StatelessWidget {
